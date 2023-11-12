@@ -1,11 +1,11 @@
-# This is a sample Python script.
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')
+from flask import Flask
+app = Flask(__name__)
 
 
-# Press the green button in the gutter to run the script.
+@app.route('/')
+def index():
+    return '<h1>Hello CWB Members</h1>'
+
+
 if __name__ == '__main__':
-    print_hi('Capstone Project')
-
+    app.run(debug=True)
