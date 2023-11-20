@@ -10,7 +10,7 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
+Daakyehen
 from MediaOutlet import printMediaOutlet
 from MediaOutletConfigReader import MediaOutletConfigReader
 
@@ -22,5 +22,4 @@ reader = MediaOutletConfigReader(filename)
 media_list = reader.read()
 for media in media_list:
     printMediaOutlet(media)
-
 
