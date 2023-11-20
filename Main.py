@@ -10,5 +10,16 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True)
 
-#Enoch push to the right branch, Make a pull request, Add class in their own file,
-#Push changes, Emma makes a pull request.
+Daakyehen
+from MediaOutlet import printMediaOutlet
+from MediaOutletConfigReader import MediaOutletConfigReader
+
+# Create an instance of MediaOutletConfigReader
+# Call the read method to parse the file and get a list of media objects
+# Print the names, URLs, and locations of the media items
+filename = 'config.ini'
+reader = MediaOutletConfigReader(filename)
+media_list = reader.read()
+for media in media_list:
+    printMediaOutlet(media)
+
