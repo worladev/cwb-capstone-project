@@ -1,8 +1,10 @@
 import configparser
 
+# This Class defines a Media source with the following attributes:
+# name : the name of the media
+# url : the website of the media outlet
+# location : the location of the media outlet
 
-# mediaOutlet class has an initializer and there parameters as name, url and location.the name shows the name of
-# the media, url contains the web address of the media and the location shows where the news media can be found.
 class MediaOutlet:
     def __init__(self, name, url, location):
         self.name = name
