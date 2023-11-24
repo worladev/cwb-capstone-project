@@ -16,4 +16,3 @@ class NewsArticle:
         self.headline = headline
         self.category = category
         self.url = url
-
