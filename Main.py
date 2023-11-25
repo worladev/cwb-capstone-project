@@ -1,4 +1,4 @@
-from MediaOutlet import printMediaOutlet
+# from MediaOutlet import printMediaOutlet
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
 from flask import Flask, render_template
