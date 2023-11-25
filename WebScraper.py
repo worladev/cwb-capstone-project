@@ -58,8 +58,8 @@ class WebScraper:
                     else:
                         logging.warning(
                             f"Failed to fetch data from {media_object.url}. Status code: {response.status_code}")
-                except requests.RequestException as e:
-                    logging.error(f"Error connecting to {media_object.url}: {e}")
+                except requests.RequestException as exception_error:
+                    logging.error(f"Error connecting to {media_object.url}: {exception_error}")
 
             return all_headlines
 
