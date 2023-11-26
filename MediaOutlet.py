@@ -1,6 +1,3 @@
-import configparser
-
-
 # This Class defines a Media source with the following attributes:
 # name : the name of the media
 # url : the website of the media outlet

@@ -1,7 +1,3 @@
-from MediaOutletConfigReader import MediaOutletConfigReader
-from WebScraper import WebScraper
-
-
 # This Class defines a NewsArticle with the following attributes:
 # source : the name of the media
 # date: the date news article was posted
@@ -16,4 +12,3 @@ class NewsArticle:
         self.headline = headline
         self.category = category
         self.url = url
-
