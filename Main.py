@@ -1,10 +1,16 @@
-# from MediaOutlet import printMediaOutlet
+from logging_config import LoggingConfig
+
+# Set up logging
+logging_config = LoggingConfig()
+
+from MediaOutlet import MediaOutlet
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
 from flask import Flask, render_template
 #from flask_bootstrap import Bootstrap5
 # from flask_sqlalchemy import SQLAlchemy
 # from Main import headlines
+import logging
 
 
 # IMPLEMENTING CONFIG READER CLASS
