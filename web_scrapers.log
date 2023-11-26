@@ -1,0 +1,94 @@
+2023-11-24 18:05:36,513 - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-24 18:05:47,887 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-24 18:05:49,492 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-24 18:05:51,226 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-24 18:05:52,730 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-24 18:05:58,416 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-24 18:05:59,689 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-24 18:06:00,125 - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-24 18:06:01,509 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-24 18:06:03,229 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-24 18:06:04,857 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-24 18:13:24,998 - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000000003BD71C0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-11-24 18:13:35,416 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-24 18:13:39,409 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-24 18:13:43,588 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-24 18:13:45,096 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-24 18:13:45,602 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-24 18:13:46,969 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-24 18:13:47,339 - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-24 18:13:48,639 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-24 18:13:53,557 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-24 18:14:05,789 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-25 13:30:56,387 - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-25 13:31:01,830 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-25 13:31:03,596 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-25 13:31:07,614 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-25 13:31:11,542 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-25 13:31:12,451 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-25 13:31:19,836 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-25 13:31:20,900 - INFO - Successfully connected to https://www.Modernghana.com
+2023-11-25 13:31:25,510 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-25 13:31:27,197 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-25 13:31:28,691 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-25 13:34:18,627 - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-25 13:34:21,225 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-25 13:34:22,925 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-25 13:34:28,065 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-25 13:34:29,633 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-25 13:34:30,458 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-25 13:34:31,854 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-25 13:34:32,578 - INFO - Successfully connected to https://www.Modernghana.com
+2023-11-25 13:34:34,100 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-25 13:34:38,845 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-25 13:34:40,123 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-25 14:34:14,596 - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-25 14:34:17,150 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-25 14:34:19,487 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-25 14:34:24,839 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-25 14:34:26,695 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-25 14:34:28,128 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-25 14:34:29,441 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-25 14:34:32,373 - INFO - Successfully connected to https://www.Modernghana.com
+2023-11-25 14:34:34,046 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-25 14:34:39,130 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-25 14:34:49,586 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-25 19:34:55,529 - INFO - Reading media data from config file.
+2023-11-25 19:34:55,873 - INFO - Scraping headlines from news platforms.
+2023-11-25 19:35:21,010 - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-25 19:35:24,305 - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-25 19:35:25,974 - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-25 19:35:36,755 - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-25 19:35:38,521 - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-25 19:35:48,523 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-25 19:35:58,923 - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-25 19:35:59,664 - INFO - Successfully connected to https://www.Modernghana.com
+2023-11-25 19:36:10,167 - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-25 19:36:11,828 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-25 19:36:13,118 - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-25 19:40:36,411-MediaOutletConfigReader- INFO - Reading media data from config file.
+2023-11-25 19:40:36,699-WebScraper- INFO - Scraping headlines from news platforms.
+2023-11-25 19:41:14,821-root- INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-25 19:41:17,136-root- INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-25 19:41:18,756-root- INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-25 19:41:20,108-root- INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-25 19:41:21,606-root- INFO - Successfully connected to https://www.parliament.gh/
+2023-11-25 19:41:22,109-root- WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-25 19:41:23,386-root- INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-25 19:41:45,724-root- INFO - Successfully connected to https://www.Modernghana.com
+2023-11-25 19:41:47,117-root- INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-25 19:41:52,253-root- INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-25 19:41:56,515-root- INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-26 18:35:24,418 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-26 18:35:24,453 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-26 18:35:46,211 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000000000264C250>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-11-26 18:36:26,797 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-26 18:36:31,105 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-26 18:36:46,385 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-26 18:36:54,465 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-26 18:36:58,057 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-26 18:36:59,525 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-26 18:36:59,939 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-26 18:37:21,930 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000057D5670>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+2023-11-26 18:37:24,563 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-26 18:37:35,008 - root - INFO - Successfully connected to https://www.hellofmonline.com
