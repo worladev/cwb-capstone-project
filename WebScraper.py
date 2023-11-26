@@ -1,17 +1,19 @@
 import logging
-
 from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 
-logging.basicConfig(filename='web_scrapers.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+#logging.basicConfig(filename='web_scrapers.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # WebScraper class has self and media_list as its parameters.
 # this function is to get the url of news platform from a list of media objects and scrap information
 # an empty list is created to store the headlines obtained from the news platforms
+
 class WebScraper:
     def __init__(self, media_list):
         self.media_list = media_list
+        self.logger = logging.getLogger(__name__)
 
     def get_media(self):
         return self.media_list
@@ -27,6 +29,8 @@ class WebScraper:
             from NewsArticle import NewsArticle
 
             all_headlines = []
+
+            self.logger.info("Scraping headlines from news platforms.")
 
             for media_object in self.media_list:
                 try:
