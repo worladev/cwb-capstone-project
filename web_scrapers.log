@@ -436,3 +436,93 @@
 2023-11-27 20:52:28,452 - root - INFO - Rendering index.html template
 2023-11-27 20:52:28,452 - root - INFO - displaying news headlines
 2023-11-27 20:52:28,462 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 20:52:28] "GET / HTTP/1.1" 200 -
+2023-11-29 15:32:43,075 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-29 15:32:43,078 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-29 15:32:46,053 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-29 15:32:49,780 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-29 15:32:53,262 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-29 15:33:01,926 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-29 15:33:06,482 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-29 15:33:08,750 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-29 15:33:10,566 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-29 15:33:11,200 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-29 15:33:13,294 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-29 15:33:15,526 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-29 15:33:18,511 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-29 15:33:18,773 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-29 15:33:18,774 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-29 15:33:18,791 - werkzeug - INFO -  * Restarting with stat
+2023-11-29 15:33:20,415 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-29 15:33:20,416 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-29 15:33:24,181 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-29 15:33:28,184 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-29 15:33:30,576 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-29 15:33:37,267 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-29 15:33:41,470 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-29 15:33:43,281 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-29 15:33:44,954 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-29 15:33:46,777 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-29 15:33:48,355 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-29 15:33:50,791 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-29 15:33:52,397 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-29 15:33:52,492 - werkzeug - WARNING -  * Debugger is active!
+2023-11-29 15:33:52,507 - werkzeug - INFO -  * Debugger PIN: 110-442-700
+2023-11-29 15:33:52,913 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 15:33:52] "GET / HTTP/1.1" 200 -
+2023-11-29 15:33:53,926 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 15:33:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-29 15:33:54,777 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 15:33:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-29 15:42:24,648 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\PycharmProjects\\cwb-capstone-project\\WebScraper.py', reloading
+2023-11-29 15:42:25,085 - werkzeug - INFO -  * Restarting with stat
+2023-11-29 15:42:27,440 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-29 15:42:27,441 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-29 15:42:31,105 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-29 15:42:37,815 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-29 15:42:44,184 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-29 15:42:49,972 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-29 15:42:54,438 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-29 15:42:56,830 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-29 15:43:00,309 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-29 15:43:02,776 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-29 15:43:05,718 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-29 15:43:09,353 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-29 15:43:11,747 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-29 15:43:11,900 - werkzeug - WARNING -  * Debugger is active!
+2023-11-29 15:43:11,900 - werkzeug - INFO -  * Debugger PIN: 110-442-700
+2023-11-29 15:43:12,302 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 15:43:12] "GET / HTTP/1.1" 200 -
+2023-11-29 15:43:13,257 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 15:43:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-29 16:06:58,639 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-29 16:06:58,641 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-29 16:07:02,790 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-29 16:07:08,671 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-29 16:07:11,454 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-29 16:07:15,975 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-29 16:07:18,959 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-29 16:07:20,261 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-29 16:07:21,601 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-29 16:07:22,589 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-29 16:07:26,632 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-29 16:07:28,479 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-29 16:07:37,873 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-29 16:07:38,032 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-29 16:07:38,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-29 16:07:38,037 - werkzeug - INFO -  * Restarting with stat
+2023-11-29 16:07:39,847 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-29 16:07:39,848 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-29 16:07:42,673 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-29 16:07:45,840 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-29 16:07:54,985 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-29 16:08:00,628 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-29 16:08:02,775 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-29 16:08:03,422 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-29 16:08:04,873 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-29 16:08:05,477 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-29 16:08:14,667 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-29 16:08:17,020 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-29 16:08:19,307 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-29 16:08:20,179 - werkzeug - WARNING -  * Debugger is active!
+2023-11-29 16:08:20,193 - werkzeug - INFO -  * Debugger PIN: 110-442-700
+2023-11-29 16:08:20,689 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 16:08:20] "GET / HTTP/1.1" 200 -
+2023-11-29 16:08:22,377 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 16:08:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-29 16:19:52,362 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 16:19:52] "[33mGET /news/politics/ghana-news-well-not-get-involved-in-laying-l-i-deputy-minority-leader.html HTTP/1.1[0m" 404 -
+2023-11-29 16:19:58,102 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2023 16:19:58] "[33mGET /news/general-news/ghana-news-tor-board-swings-on-transparency-after-osp-directive.html HTTP/1.1[0m" 404 -
