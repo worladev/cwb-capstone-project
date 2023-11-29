@@ -1,4 +1,4 @@
-import logging
+# import logging
 from LoggingConfig import LoggingConfig
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
@@ -25,7 +25,6 @@ media_list = reader.read()
 # # Initialize WebScraper with media objects
 scraper = WebScraper(media_list)
 headlines = scraper.crawl_headlines()
-
 
 # def print_headlines(arg):
 #     for headline in headlines:

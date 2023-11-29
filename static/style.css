@@ -1,8 +1,21 @@
-.body{
-    background-color: cyan;
+#bootstrap-override body{
+    background-color: gray;
 }
 .h1-home{
+    color: white;
     text-align: center;
     width: auto;
-    background-color: cyan;
+    margin: 25px;
 }
+.card-body{
+    background-color: #F0F0F0;
+}
+
+/*
+.row :nth-child(4n){
+    background-color: #29ADB2;
+}
+.row :nth-child(4n-1){
+    background-color: #7C93C3;
+}
+*/
