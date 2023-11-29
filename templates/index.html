@@ -4,17 +4,18 @@
 
 {% block content %}
     <h1 class="h1-home">The CWB Bin Capstone Project.</h1>
-    {% for head in news_headlines %}
+    {% for headline in news_headlines %}
     <div class="container">
         <div class="row">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{head.headline}}</h5>
-                    <p class="card-text">Author || Date posted</p>
-                    <a href="{{head.url}}" class="btn btn-primary">Read News</a>
+                    <h5 class="card-title">{{headline.headline}}</h5>
+                    <p class="card-text">{{headline.source}}</p>
+                    <a href="{{headline.url}}" class="btn btn-primary">Read More...</a>
                 </div>
             </div>
         </div>
     </div>
+    <br>
     {% endfor %}
 {% endblock %}

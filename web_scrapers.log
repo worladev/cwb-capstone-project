@@ -1,94 +1,438 @@
-2023-11-24 18:05:36,513 - INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-24 18:05:47,887 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-24 18:05:49,492 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-24 18:05:51,226 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-24 18:05:52,730 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-24 18:05:58,416 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-24 18:05:59,689 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-24 18:06:00,125 - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
-2023-11-24 18:06:01,509 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-24 18:06:03,229 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-24 18:06:04,857 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-24 18:13:24,998 - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000000003BD71C0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-2023-11-24 18:13:35,416 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-24 18:13:39,409 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-24 18:13:43,588 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-24 18:13:45,096 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-24 18:13:45,602 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-24 18:13:46,969 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-24 18:13:47,339 - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
-2023-11-24 18:13:48,639 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-24 18:13:53,557 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-24 18:14:05,789 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-25 13:30:56,387 - INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-25 13:31:01,830 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-25 13:31:03,596 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-25 13:31:07,614 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-25 13:31:11,542 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-25 13:31:12,451 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-25 13:31:19,836 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-25 13:31:20,900 - INFO - Successfully connected to https://www.Modernghana.com
-2023-11-25 13:31:25,510 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-25 13:31:27,197 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-25 13:31:28,691 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-25 13:34:18,627 - INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-25 13:34:21,225 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-25 13:34:22,925 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-25 13:34:28,065 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-25 13:34:29,633 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-25 13:34:30,458 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-25 13:34:31,854 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-25 13:34:32,578 - INFO - Successfully connected to https://www.Modernghana.com
-2023-11-25 13:34:34,100 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-25 13:34:38,845 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-25 13:34:40,123 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-25 14:34:14,596 - INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-25 14:34:17,150 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-25 14:34:19,487 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-25 14:34:24,839 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-25 14:34:26,695 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-25 14:34:28,128 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-25 14:34:29,441 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-25 14:34:32,373 - INFO - Successfully connected to https://www.Modernghana.com
-2023-11-25 14:34:34,046 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-25 14:34:39,130 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-25 14:34:49,586 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-25 19:34:55,529 - INFO - Reading media data from config file.
-2023-11-25 19:34:55,873 - INFO - Scraping headlines from news platforms.
-2023-11-25 19:35:21,010 - INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-25 19:35:24,305 - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-25 19:35:25,974 - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-25 19:35:36,755 - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-25 19:35:38,521 - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-25 19:35:48,523 - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-25 19:35:58,923 - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-25 19:35:59,664 - INFO - Successfully connected to https://www.Modernghana.com
-2023-11-25 19:36:10,167 - INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-25 19:36:11,828 - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-25 19:36:13,118 - INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-25 19:40:36,411-MediaOutletConfigReader- INFO - Reading media data from config file.
-2023-11-25 19:40:36,699-WebScraper- INFO - Scraping headlines from news platforms.
-2023-11-25 19:41:14,821-root- INFO - Successfully connected to https://www.myjoyonline.com/
-2023-11-25 19:41:17,136-root- INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-25 19:41:18,756-root- INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-25 19:41:20,108-root- INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-25 19:41:21,606-root- INFO - Successfully connected to https://www.parliament.gh/
-2023-11-25 19:41:22,109-root- WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-25 19:41:23,386-root- INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-25 19:41:45,724-root- INFO - Successfully connected to https://www.Modernghana.com
-2023-11-25 19:41:47,117-root- INFO - Successfully connected to https://www.kessbenonline.com
-2023-11-25 19:41:52,253-root- INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-25 19:41:56,515-root- INFO - Successfully connected to https://www.hellofmonline.com
-2023-11-26 18:35:24,418 - MediaOutletConfigReader - INFO - Reading media data from config file.
-2023-11-26 18:35:24,453 - WebScraper - INFO - Scraping headlines from news platforms.
-2023-11-26 18:35:46,211 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000000000264C250>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-2023-11-26 18:36:26,797 - root - INFO - Successfully connected to https://www.thebftonline.com/
-2023-11-26 18:36:31,105 - root - INFO - Successfully connected to https://www.citinewsroom.com/
-2023-11-26 18:36:46,385 - root - INFO - Successfully connected to https://www.graphic.com.gh/
-2023-11-26 18:36:54,465 - root - INFO - Successfully connected to https://www.parliament.gh/
-2023-11-26 18:36:58,057 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
-2023-11-26 18:36:59,525 - root - INFO - Successfully connected to https://www.Peacefmonline.com
-2023-11-26 18:36:59,939 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
-2023-11-26 18:37:21,930 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000057D5670>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-2023-11-26 18:37:24,563 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
-2023-11-26 18:37:35,008 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 17:29:22,740 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:29:22,750 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:29:29,066 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 17:29:38,210 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 17:29:44,228 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 17:29:49,347 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 17:29:53,714 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 17:29:59,988 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 17:30:02,547 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 17:30:04,392 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 17:30:23,376 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 17:30:26,519 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 17:30:31,220 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 17:30:31,505 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 17:30:31,513 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 17:30:31,518 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:30:32,375 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:30:32,375 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:30:47,940 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 17:30:56,484 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 17:31:01,233 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 17:31:12,107 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 17:31:14,945 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 17:31:17,330 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 17:31:21,396 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 17:31:25,590 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 17:31:31,430 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 17:31:35,958 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 17:31:38,301 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 17:31:38,372 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:31:38,378 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:33:21,558 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 17:33:21,809 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:33:22,288 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:33:22,288 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:33:28,106 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 17:33:30,638 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 17:33:32,416 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 17:33:37,952 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 17:33:40,577 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 17:33:41,595 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 17:33:42,477 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 17:33:43,434 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 17:33:57,049 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 17:34:00,019 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 17:34:02,790 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 17:34:02,850 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:34:02,855 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:34:02,958 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:34:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-27 17:34:03,098 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:34:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-27 17:34:03,117 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:34:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-27 17:34:03,314 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:34:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-27 17:34:03,339 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:34:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:46:41,520 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 17:46:41,716 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:46:42,303 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:46:42,305 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:46:42,402 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030DB0D0>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,421 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030F1ED0>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,427 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030F39D0>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,437 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030F2B10>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,443 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030F27D0>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,449 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030F1010>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,456 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030E0750>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,463 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030D8250>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,470 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D503102090>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,476 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D503103E90>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,482 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5030BFD10>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:46:42,509 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:46:42,519 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:48:10,401 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 17:48:10,494 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:48:11,633 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:48:11,742 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:48:11,805 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:48:41,297 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:48:41,309 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F25B2D0>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,311 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F407B50>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,317 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F3F7810>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,323 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F415B90>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,328 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F417A50>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,332 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F419990>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,336 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F41B8D0>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,336 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F41B610>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,345 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F419710>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,352 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F416B50>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,356 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F415B50>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:48:41,860 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:48:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-27 17:48:41,970 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:48:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:48:41,970 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:48:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-27 17:48:42,111 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:48:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:48:42,127 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:48:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:50:15,244 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:50:15,262 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F43D290>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,285 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F7F0ED0>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,301 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F808E50>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,321 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F7FD890>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,343 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F810E50>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,361 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F808A50>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,382 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F7F1910>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,402 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F7FA450>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,418 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F433D10>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,439 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F811590>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,460 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002662F812F90>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:50:15,677 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:50:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-27 17:50:15,876 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:50:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:50:15,886 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:50:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-27 17:50:16,400 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:50:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:50:16,425 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:50:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:51:46,609 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:51:46,632 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 17:51:46,633 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 17:51:46,637 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:51:47,212 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:51:47,226 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:51:47,230 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:52:01,133 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:52:01,141 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C35310>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,146 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C37250>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,150 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C357D0>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,152 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C2A890>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,154 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C41AD0>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,156 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C439D0>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,161 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C4D950>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,163 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C4F810>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,163 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C42C10>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,175 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C42650>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,180 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C40190>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:52:01,234 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:52:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-11-27 17:52:01,347 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:52:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:52:01,356 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:52:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-27 17:52:01,411 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:52:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:52:01,434 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:52:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-27 17:54:21,854 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:54:21,854 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676025A90>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,863 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676021090>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,867 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001267603D090>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,868 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000126760261D0>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,868 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676025490>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,879 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C6CE90>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,880 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001267603C5D0>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,880 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676030890>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,889 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676041990>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,895 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676030D90>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,897 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676031790>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:21,905 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:21] "GET / HTTP/1.1" 200 -
+2023-11-27 17:54:21,941 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:21] "GET /static/style.css HTTP/1.1" 200 -
+2023-11-27 17:54:22,030 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-27 17:54:31,884 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:54:31,887 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C4D710>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,887 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676042C90>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,896 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C36210>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,900 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012675C6D1D0>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,900 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001267603C910>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,909 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676041510>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,913 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676033490>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,913 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676030590>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,921 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676055D50>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,926 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676031290>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,930 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676030A90>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:31,930 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:31] "GET / HTTP/1.1" 200 -
+2023-11-27 17:54:31,958 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:54:33,126 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:54:33,129 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676042BD0>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,133 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001267522CED0>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,137 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676054850>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,137 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676024ED0>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,147 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676043690>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,147 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676041090>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,154 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001267603F490>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,154 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676021CD0>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,162 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676056190>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,162 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676030E10>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,171 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012676033E90>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:54:33,171 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:33] "GET / HTTP/1.1" 200 -
+2023-11-27 17:54:33,196 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:54:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:55:15,039 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 17:55:15,143 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:55:15,785 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:55:15,785 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:55:15,792 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD284401D0>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,794 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28441C90>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,796 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28443790>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,799 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28442F90>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,801 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28440D90>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,804 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28440850>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,806 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD2842C710>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,808 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD28424090>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,811 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD2844DF10>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,813 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD2844FD10>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,815 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD2840FF10>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:55:15,830 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:55:15,834 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 17:55:29,480 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:55:29] "GET / HTTP/1.1" 200 -
+2023-11-27 17:55:29,547 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:55:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:55:34,639 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:55:34] "GET / HTTP/1.1" 200 -
+2023-11-27 17:55:34,668 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 17:55:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 17:56:05,378 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:56:05,379 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:56:05,385 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E005D0>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,387 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E02150>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,388 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E03C50>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,392 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E037D0>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,394 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E00210>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,395 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E00DD0>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,397 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227DF0D50>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,399 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227DE8150>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,401 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E0E350>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,403 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227E08190>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,404 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F227DCF950>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,426 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 17:56:05,426 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 17:56:05,430 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 17:56:05,898 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 17:56:05,898 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 17:56:05,903 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A80090>: Failed to resolve 'www.myjoyonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,905 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='www.thebftonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A81BD0>: Failed to resolve 'www.thebftonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,907 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A836D0>: Failed to resolve 'www.citinewsroom.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,911 - root - ERROR - Error connecting to https://www.graphic.com.gh/: HTTPSConnectionPool(host='www.graphic.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A83210>: Failed to resolve 'www.graphic.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,913 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A80C90>: Failed to resolve 'www.parliament.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,914 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A80750>: Failed to resolve 'www.ghanaweb.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,916 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A6C690>: Failed to resolve 'www.peacefmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,918 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A640D0>: Failed to resolve 'www.modernghana.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,920 - root - ERROR - Error connecting to https://www.kessbenonline.com: HTTPSConnectionPool(host='www.kessbenonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A8DE50>: Failed to resolve 'www.kessbenonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,921 - root - ERROR - Error connecting to https://www.ghanaiantimes.com.gh: HTTPSConnectionPool(host='www.ghanaiantimes.com.gh', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A8FC50>: Failed to resolve 'www.ghanaiantimes.com.gh' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,923 - root - ERROR - Error connecting to https://www.hellofmonline.com: HTTPSConnectionPool(host='www.hellofmonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A6A7A4F750>: Failed to resolve 'www.hellofmonline.com' ([Errno 11001] getaddrinfo failed)"))
+2023-11-27 17:56:05,937 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 17:56:05,944 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 19:36:36,124 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:36:36,125 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 19:36:38,274 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 19:36:40,589 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 19:36:43,129 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 19:36:46,916 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 19:36:51,649 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 19:36:52,483 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 19:36:54,978 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 19:36:55,653 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 19:36:57,248 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 19:36:58,946 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 19:37:00,435 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 19:37:00,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 19:37:00,479 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 19:37:00,484 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 19:37:00,913 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:37:00,913 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 19:37:03,574 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 19:37:07,181 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 19:37:16,392 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 19:37:20,911 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 19:37:27,298 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 19:37:28,179 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 19:37:29,576 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 19:37:30,257 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 19:37:32,725 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 19:37:35,793 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 19:37:37,100 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 19:37:37,137 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 19:37:37,141 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 19:38:22,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 19:38:27,497 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:38:27,518 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 19:38:27,518 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 19:38:27,523 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 19:38:27,927 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:38:27,939 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 19:38:27,942 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 19:38:46,156 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 19:38:48,218 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 19:38:52,854 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 19:39:00,773 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 19:39:10,835 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 19:39:14,663 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 19:39:21,531 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 19:39:23,191 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 19:39:23,888 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 19:39:25,317 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 19:39:27,435 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 19:39:28,760 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 19:39:28,812 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:39:28] "GET / HTTP/1.1" 200 -
+2023-11-27 19:39:28,877 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:39:28] "GET /static/style.css HTTP/1.1" 200 -
+2023-11-27 19:39:29,744 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:39:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-27 19:46:47,459 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 19:46:47,569 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 19:46:48,001 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:46:48,014 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 19:46:48,020 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 19:46:52,321 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:46:52,343 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 19:46:52,343 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 19:46:52,348 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 19:46:52,772 - MediaOutletConfigReader - INFO - Reading media data from config file.
+2023-11-27 19:46:52,785 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 19:46:52,788 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 19:47:25,061 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 19:47:33,275 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 19:47:36,886 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 19:47:39,520 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 19:47:47,414 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 19:47:51,067 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 19:47:51,900 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 19:47:53,336 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 19:47:54,044 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 19:47:55,641 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 19:48:00,131 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 19:48:01,450 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 19:48:01,494 - root - INFO - Rendering index.html template
+2023-11-27 19:48:01,495 - root - INFO - displaying news headlines
+2023-11-27 19:48:01,507 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:48:01] "GET / HTTP/1.1" 200 -
+2023-11-27 19:48:01,565 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:48:01] "GET /static/style.css HTTP/1.1" 200 -
+2023-11-27 19:48:03,011 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:48:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-27 19:49:20,703 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 19:49:23,294 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 19:49:27,965 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 19:49:38,763 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 19:49:43,388 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 19:49:50,687 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 19:49:52,515 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 19:49:53,865 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 19:49:54,584 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 19:49:56,342 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 19:49:58,274 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 19:49:59,559 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 19:49:59,586 - root - INFO - Rendering index.html template
+2023-11-27 19:49:59,587 - root - INFO - displaying news headlines
+2023-11-27 19:49:59,590 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:49:59] "GET / HTTP/1.1" 200 -
+2023-11-27 19:49:59,607 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:49:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 20:21:17,918 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:21:17,931 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:21:23,177 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 20:21:56,338 - root - ERROR - Error connecting to https://www.thebftonline.com/: HTTPSConnectionPool(host='thebftonline.com', port=443): Read timed out. (read timeout=None)
+2023-11-27 20:22:38,471 - root - ERROR - Error connecting to https://www.citinewsroom.com/: HTTPSConnectionPool(host='www.citinewsroom.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002378194DE90>, 'Connection to www.citinewsroom.com timed out. (connect timeout=None)'))
+2023-11-27 20:22:51,062 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:22:53,956 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 20:23:04,105 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 20:23:05,641 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 20:23:07,285 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 20:23:09,856 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:23:18,545 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:23:19,874 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:23:20,309 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 20:23:20,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 20:23:20,331 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 20:23:20,813 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:23:20,814 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:23:25,210 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 20:23:28,419 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 20:23:31,711 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 20:23:36,438 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:23:39,160 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 20:23:39,919 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 20:23:43,340 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 20:23:43,944 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 20:23:46,214 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:23:47,722 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:23:48,958 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:23:49,216 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 20:23:49,223 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 20:34:27,328 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:34:27,329 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:34:35,422 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 20:34:39,091 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 20:34:41,142 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 20:34:49,701 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:34:52,349 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 20:34:53,148 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 20:34:54,516 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 20:34:55,142 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 20:35:03,557 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:35:07,205 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:35:08,438 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:35:08,507 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-27 20:35:08,507 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-11-27 20:35:08,513 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 20:35:09,089 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:35:09,091 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:35:11,801 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 20:35:16,279 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 20:35:17,887 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 20:35:23,496 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:35:26,536 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 20:35:27,252 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 20:35:28,539 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 20:35:30,802 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 20:35:33,076 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:35:34,644 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:35:35,898 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:35:35,949 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 20:35:35,955 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 20:41:20,857 - root - INFO - Rendering index.html template
+2023-11-27 20:41:20,857 - root - INFO - displaying news headlines
+2023-11-27 20:41:24,005 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 20:41:24] "GET / HTTP/1.1" 200 -
+2023-11-27 20:41:24,133 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 20:41:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-27 20:45:29,570 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 20:45:29,684 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 20:45:30,306 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:45:30,307 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:45:39,303 - root - INFO - Successfully connected to https://www.myjoyonline.com/
+2023-11-27 20:45:41,803 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 20:45:49,649 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 20:45:53,684 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:45:58,710 - root - INFO - Successfully connected to https://www.parliament.gh/
+2023-11-27 20:45:59,535 - root - WARNING - Failed to fetch data from https://www.Ghanaweb.com. Status code: 403
+2023-11-27 20:46:00,807 - root - INFO - Successfully connected to https://www.Peacefmonline.com
+2023-11-27 20:46:02,485 - root - WARNING - Failed to fetch data from https://www.Modernghana.com. Status code: 403
+2023-11-27 20:46:07,828 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:46:09,903 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:46:47,319 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:46:47,380 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 20:46:47,390 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 20:49:09,262 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Worlasi\\PycharmProjects\\cwb-capstone-project\\Main.py', reloading
+2023-11-27 20:49:09,383 - werkzeug - INFO -  * Restarting with stat
+2023-11-27 20:49:10,049 - MediaOutletConfigReader - INFO - Reading media data from config file: config.ini
+2023-11-27 20:49:10,049 - WebScraper - INFO - Scraping headlines from news platforms.
+2023-11-27 20:49:31,157 - root - ERROR - Error connecting to https://www.myjoyonline.com/: HTTPSConnectionPool(host='www.myjoyonline.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FE55D23C10>, 'Connection to www.myjoyonline.com timed out. (connect timeout=None)'))
+2023-11-27 20:49:41,570 - root - INFO - Successfully connected to https://www.thebftonline.com/
+2023-11-27 20:49:45,655 - root - INFO - Successfully connected to https://www.citinewsroom.com/
+2023-11-27 20:49:51,245 - root - INFO - Successfully connected to https://www.graphic.com.gh/
+2023-11-27 20:50:12,315 - root - ERROR - Error connecting to https://www.parliament.gh/: HTTPSConnectionPool(host='www.parliament.gh', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FE5648A750>, 'Connection to www.parliament.gh timed out. (connect timeout=None)'))
+2023-11-27 20:50:54,423 - root - ERROR - Error connecting to https://www.Ghanaweb.com: HTTPSConnectionPool(host='www.ghanaweb.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FE56490290>, 'Connection to www.ghanaweb.com timed out. (connect timeout=None)'))
+2023-11-27 20:51:38,531 - root - ERROR - Error connecting to https://www.Peacefmonline.com: HTTPSConnectionPool(host='www.peacefmonline.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FE56488F90>, 'Connection to www.peacefmonline.com timed out. (connect timeout=None)'))
+2023-11-27 20:52:20,593 - root - ERROR - Error connecting to https://www.Modernghana.com: HTTPSConnectionPool(host='www.modernghana.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FE56491E50>, 'Connection to www.modernghana.com timed out. (connect timeout=None)'))
+2023-11-27 20:52:25,425 - root - INFO - Successfully connected to https://www.kessbenonline.com
+2023-11-27 20:52:27,035 - root - INFO - Successfully connected to https://www.ghanaiantimes.com.gh
+2023-11-27 20:52:28,362 - root - INFO - Successfully connected to https://www.hellofmonline.com
+2023-11-27 20:52:28,420 - werkzeug - WARNING -  * Debugger is active!
+2023-11-27 20:52:28,426 - werkzeug - INFO -  * Debugger PIN: 521-529-556
+2023-11-27 20:52:28,452 - root - INFO - Rendering index.html template
+2023-11-27 20:52:28,452 - root - INFO - displaying news headlines
+2023-11-27 20:52:28,462 - werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 20:52:28] "GET / HTTP/1.1" 200 -
