@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class StatusCode(Enum):
     CONTINUE = "100"
     SWITCHING_PROTOCOLS = "101"
