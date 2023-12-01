@@ -4,13 +4,14 @@
 
 {% block content %}
     <h1 class="h1-home">The CWB Bin Capstone Project.</h1>
+
     {% for headline in news_headlines %}
     <div class="container">
         <div class="row">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{headline.headline}}</h5>
-                    <p class="card-text">{{headline.source}}</p>
+                    <p class="card-text">{{headline.source}} | {{headline.date}}</p>
                     <a href="{{headline.url}}" class="btn btn-primary bg-success">Read More...</a>
                 </div>
             </div>
@@ -18,4 +19,15 @@
     </div>
     <br>
     {% endfor %}
+
+    <div class="pagination">
+        {% if page > 1 %}
+            <a href="{{ url_for('index', page=page-1) }}">Prev</a>
+        {% endif %}
+        <h4>Page {{ page }} of {{ total_pages }}</h4>
+        {% if page < total_pages %}
+            <a href="{{ url_for('index', page=page+1) }}">Next</a>
+        {% endif %}
+    </div>
+
 {% endblock %}

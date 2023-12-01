@@ -1,11 +1,11 @@
 # import logging
+import requests
+
 from LoggingConfig import LoggingConfig
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap5
-# from flask_sqlalchemy import SQLAlchemy
-# from flask import Blueprint
 
 
 # Set up logging
@@ -26,6 +26,7 @@ media_list = reader.read()
 scraper = WebScraper(media_list)
 headlines = scraper.crawl_headlines()
 
+
 # def print_headlines(arg):
 #     for headline in headlines:
 #         print(f"Source: {headline.source}, \nHeadline: {headline.headline}, "
@@ -41,11 +42,19 @@ bootstrap = Bootstrap5(app)
 
 
 @app.route('/')
-def index(page=1):
-    # per_page = 10
+def index():
+    page = request.args.get('page', 1, type=int)
+    per_page = 10
+    start_index = (page - 1) * per_page
+    end_index = start_index + per_page
+    page_items = headlines[start_index:end_index]
+    total_pages = len(headlines) // per_page + (len(headlines) // per_page > 0)
+
     # posts = headlines.query.order_by(headlines.time.desc()).paginate(page, per_page, error_out=False)
     return render_template('index.html',
-                           news_headlines=headlines,
+                           news_headlines=page_items,
+                           page=page,
+                           total_pages=total_pages,
                            )
 
 
