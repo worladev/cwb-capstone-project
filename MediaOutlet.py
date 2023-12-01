@@ -9,8 +9,8 @@ class MediaOutlet:
         self.url = url
         self.location = location
 
+#   This creates a method to print media outlet.
+#   This function prints out the name, url and location of the mediaOutlet
 
-# This creates a method to print media outlet.
-# This function prints out the name, url and location of the mediaOutlet
-    def printMediaOutlet(self):
+    def print_media_outlet(self):
         print(f"Name: {self.name}, URL: {self.url}, Location: {self.location}")
