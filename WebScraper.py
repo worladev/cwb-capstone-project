@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from NewsArticle import NewsArticle
 import requests
 from datetime import datetime
+from StatusCode import StatusCode
 
 
 # WebScraper class has self and media_list as its parameters.
@@ -33,13 +34,15 @@ class WebScraper:
                     logging.info(f"Successfully connected to {media_object.url}")
                     soup = BeautifulSoup(response.content, 'html.parser')
                     news_items = soup.find_all('a', href=True)
-                    # log
+                    logging.info(f"Successfully obtained data from {media_object.url}")
+
 
                     for news_item in news_items:
+                        logging.info(f"Obtaining headlines from {media_object.url}")
                         url = news_item['href']
                         headline_text = news_item.text.strip()
                         if url == "" or "video" in url or len(headline_text) < 25:
-                            # log
+                            logging.info(f"A media item that isn't a headline has been removed.")
                             continue
                         else:
                             # regex code
@@ -52,14 +55,19 @@ class WebScraper:
                                 category="some_category",
                                 url=url
                             )
-                            # log
+                            logging.info(f"A media item successfully obtained.")
                             all_headlines.append(article)
-                    # log
+                    logging.info(f"All media headlines successfully obtained.")
+
                 else:
-                    logging.warning(
-                        f"Failed to fetch data from {media_object.url}. Status code: {response.status_code}")
+                    for code in StatusCode:
+                        if response.status_code==int(code.value):
+                            logging.warning(
+                              f"Failed to fetch data from {media_object.url}. "
+                              f"Status code after attempting to connect to {media_object.name}: {code.name}")
             except requests.RequestException as exception_error:
                 logging.error(f"Error connecting to {media_object.url}: {exception_error}")
+
         return all_headlines
     # a method that takes an integer. could use enums
     # returns meaning of status code received

@@ -4,8 +4,8 @@ from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap5
-# from flask_sqlalchemy import SQLAlchemy
-# from flask import Blueprint
+from flask_sqlalchemy import SQLAlchemy
+from flask import Blueprint
 
 
 # Set up logging
@@ -27,13 +27,13 @@ scraper = WebScraper(media_list)
 headlines = scraper.crawl_headlines()
 
 
-# def print_headlines(arg):
-#     for headline in headlines:
-#         print(f"Source: {headline.source}, \nHeadline: {headline.headline}, "
-#               f"\nDate: {headline.date}, \nLink: {headline.url}\n")
-#
-#
-# print_headlines(headlines)
+def print_headlines(arg):
+     for headline in headlines:
+        print(f"Source: {headline.source}, \nHeadline: {headline.headline}, "
+               f"\nDate: {headline.date}, \nLink: {headline.url}\n")
+
+
+print_headlines(headlines)
 
 
 # IMPLEMENTING FLASK
@@ -43,12 +43,12 @@ bootstrap = Bootstrap5(app)
 
 @app.route('/')
 def index(page=1):
-    # per_page = 10
-    # posts = headlines.query.order_by(headlines.time.desc()).paginate(page, per_page, error_out=False)
+    per_page = 10
+    posts = headlines.query.order_by(headlines.time.desc()).paginate(page, per_page, error_out=False)
     return render_template('index.html',
                            news_headlines=headlines,
                            )
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+   app.run(debug=True)
