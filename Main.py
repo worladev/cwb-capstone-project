@@ -1,11 +1,13 @@
 # import logging
-import requests
-
+# import requests
 from LoggingConfig import LoggingConfig
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
 from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap5
+
+# from flask_sqlalchemy import SQLAlchemy
+# from flask import Blueprint
 
 
 # Set up logging
@@ -51,6 +53,7 @@ def index():
     total_pages = len(headlines) // per_page + (len(headlines) // per_page > 0)
 
     # posts = headlines.query.order_by(headlines.time.desc()).paginate(page, per_page, error_out=False)
+
     return render_template('index.html',
                            news_headlines=page_items,
                            page=page,
