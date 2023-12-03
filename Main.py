@@ -1,5 +1,7 @@
 # import logging
 # import requests
+import os
+
 from LoggingConfig import LoggingConfig
 from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
@@ -18,15 +20,15 @@ logging_config = LoggingConfig()
 # Call the read method to parse the file and get a list of media objects
 # Print the names, URLs, and locations of the media items
 
-filename = 'config.ini'
-reader = MediaOutletConfigReader(filename)
-media_list = reader.read()
-
-
-# # IMPLEMENTING THE WEBSCRAPER CLASS
-# # Initialize WebScraper with media objects
-scraper = WebScraper(media_list)
-headlines = scraper.crawl_headlines()
+# filename = 'config.ini'
+# reader = MediaOutletConfigReader(filename)
+# media_list = reader.read()
+#
+#
+# # # IMPLEMENTING THE WEBSCRAPER CLASS
+# # # Initialize WebScraper with media objects
+# scraper = WebScraper(media_list)
+# headlines = scraper.crawl_headlines()
 
 
 # def print_headlines(arg):
@@ -45,14 +47,23 @@ bootstrap = Bootstrap5(app)
 
 @app.route('/')
 def index():
+    # Reading from config.ini file
+    filename = 'config.ini'
+    reader = MediaOutletConfigReader(filename)
+    media_list = reader.read()
+
+    # IMPLEMENTING THE WEBSCRAPER CLASS
+    # Initialize WebScraper with media objects
+    scraper = WebScraper(media_list)
+    headlines = scraper.crawl_headlines()
+
+    # Paginating and rendering Flask object
     page = request.args.get('page', 1, type=int)
     per_page = 10
     start_index = (page - 1) * per_page
     end_index = start_index + per_page
     page_items = headlines[start_index:end_index]
     total_pages = len(headlines) // per_page + (len(headlines) // per_page > 0)
-
-    # posts = headlines.query.order_by(headlines.time.desc()).paginate(page, per_page, error_out=False)
 
     return render_template('index.html',
                            news_headlines=page_items,
