@@ -1,8 +1,7 @@
 Flask==3.0.0
+Bootstrap-Flask==2.3.3
 beautifulsoup4==4.12.2
 bs4==0.0.1
-Bootstrap-Flask==2.3.2
-Flask-Bootstrap==3.3.7.1
 python-dateutil==2.8.2
 requests==2.31.0
 gunicorn==21.2.0
