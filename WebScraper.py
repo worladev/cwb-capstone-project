@@ -24,6 +24,8 @@ class WebScraper:
     def get_media(self):
         return self.media_list
 
+
+
     # def date_formats(self, date_format):
     #     date_formats = ["%d %B, %Y", "%d-%b-%Y", "%B %d, %Y", "%b-%d-%Y"]
     #     for date_format in date_formats:
@@ -36,8 +38,19 @@ class WebScraper:
     # It uses Beautiful soup to get all the headlines from the news outlet
 
     def crawl_headlines(self, num_of_headline_text=30):
-        all_headlines = []
+        all_headlines = set()
         self.logger.info("Scraping headlines from news platforms.")
+
+        def get_category_from_text(text):
+            text = text.lower()
+            if 'entertainment' in text:
+                return 'entertainment'
+            elif 'sports' in text:
+                return 'sports'
+            elif 'business' in text:
+                return 'business'
+            else:
+                return 'news'
 
         for media_object in self.media_list:
             try:
@@ -68,6 +81,7 @@ class WebScraper:
                         url = news_item['href']
                         headline_text = news_item.text.strip()
 
+
                         # date_items = soup.find_all('span', class_='date')
                         date_match = date_pattern.search(headline_text)  # date-code
                         # date_match = date_pattern.search(url)
@@ -94,15 +108,16 @@ class WebScraper:
 
                             continue
                         else:
+                            category = get_category_from_text(headline_text)
                             article = NewsArticle(
                                 source=media_object.name,
                                 date=date,
                                 headline=headline_text,
-                                category="some_category",
+                                category=category,
                                 url=url
                             )
                             logging.info(f"A media item successfully obtained.")
-                            all_headlines.append(article)
+                            all_headlines.add(article)
 
                     logging.info(f"All media headlines successfully obtained.")
 
@@ -118,3 +133,4 @@ class WebScraper:
         return all_headlines
         # a method that takes an integer. could use enums
         # returns meaning of status code received
+

@@ -34,7 +34,7 @@ logging_config = LoggingConfig()
 # def print_headlines(arg):
 #     for headline in headlines:
 #         print(f"Source: {headline.source}, \nHeadline: {headline.headline}, "
-#               f"\nDate: {headline.date}, \nLink: {headline.url}\n")
+#               f"\nDate: {headline.date}, \nLink: {headline.url},\nCategory: {headline.category}\n")
 #
 #
 # print_headlines(headlines)
