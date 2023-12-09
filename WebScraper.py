@@ -38,7 +38,7 @@ class WebScraper:
     # It uses Beautiful soup to get all the headlines from the news outlet
 
     def crawl_headlines(self, num_of_headline_text=30):
-        all_headlines = set()
+        all_headlines = dict()
         self.logger.info("Scraping headlines from news platforms.")
 
         def get_category_from_text(text):
@@ -117,7 +117,15 @@ class WebScraper:
                                 url=url
                             )
                             logging.info(f"A media item successfully obtained.")
-                            all_headlines.add(article)
+
+                            if category in all_headlines:
+                                article_category = all_headlines[category]
+                                article_category.add(article)
+                                all_headlines[category] = article_category
+                            else:
+                                new_set = set()
+                                new_set.add(article)
+                                all_headlines[category] = new_set
 
                     logging.info(f"All media headlines successfully obtained.")
 
@@ -129,6 +137,8 @@ class WebScraper:
                               f"Status code after attempting to connect to {media_object.name}: {code.name}")
             except requests.RequestException as exception_error:
                 logging.error(f"Error connecting to {media_object.url}: {exception_error}")
+
+
 
         return all_headlines
         # a method that takes an integer. could use enums

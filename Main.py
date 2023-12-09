@@ -7,6 +7,7 @@ from MediaOutletConfigReader import MediaOutletConfigReader
 from WebScraper import WebScraper
 from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap5
+from NewsFilter import NewsFilter
 
 # from flask_sqlalchemy import SQLAlchemy
 # from flask import Blueprint
@@ -23,10 +24,10 @@ logging_config = LoggingConfig()
 # filename = 'config.ini'
 # reader = MediaOutletConfigReader(filename)
 # media_list = reader.read()
-#
-#
-# # # IMPLEMENTING THE WEBSCRAPER CLASS
-# # # Initialize WebScraper with media objects
+# #
+# #
+# # # # IMPLEMENTING THE WEBSCRAPER CLASS
+# # # # Initialize WebScraper with media objects
 # scraper = WebScraper(media_list)
 # headlines = scraper.crawl_headlines()
 
@@ -36,7 +37,18 @@ logging_config = LoggingConfig()
 #         print(f"Source: {headline.source}, \nHeadline: {headline.headline}, "
 #               f"\nDate: {headline.date}, \nLink: {headline.url},\nCategory: {headline.category}\n")
 #
-#
+
+# def print_headlines(headlines):
+#     for category, articles in headlines.items():
+#         print(f"Category: {category}")
+#         for article in articles:
+#             print(f"Source: {article.source}")
+#             print(f"Headline: {article.headline}")
+#             print(f"Date: {article.date}")
+#             print(f"Link: {article.url}")
+#             print(f"Category: {article.category}")
+#             print()
+
 # print_headlines(headlines)
 
 
@@ -45,7 +57,7 @@ app = Flask(__name__)
 bootstrap = Bootstrap5(app)
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     # Reading from config.ini file
     filename = 'config.ini'
@@ -70,7 +82,7 @@ def index():
                            page=page,
                            total_pages=total_pages,
                            )
-
-
+#
+#
 if __name__ == '__main__':
     app.run(debug=True)
