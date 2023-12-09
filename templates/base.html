@@ -19,6 +19,54 @@
 </head>
 <body class="bg-dark">
     <!-- Page Content -->
+    <h3 class="h1-home">The CWB Bin Capstone Project.</h3>
+    <!-- Category Menu Nav -->
+
+     <h2>HTML checked Attribute</h2>
+    <form class="select_form">
+        <!-- Below input elements have attribute "checked" -->
+        <input type="checkbox"
+               name="check"
+               value="1">
+        News<br>
+        <input type="checkbox"
+               name="check"
+               value="2"
+               checked>
+        Politics<br>
+        <input type="checkbox"
+               name="check"
+               value="3">
+        Sports<br>
+        <input type="checkbox"
+               name="check"
+               value="4">
+        Entertainment<br>
+        <input type="checkbox"
+               name="check"
+               value="5">
+        Business<br>
+    </form>
+
+    <!--
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active bg-primary" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-info" href="#">Politics</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-light" href="#">Business</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-secondary" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-warning" href="#">Entertainment</a>
+        </li>
+    </ul>-->
+
     {% block content %}
     {% endblock %}
 

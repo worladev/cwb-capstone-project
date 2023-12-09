@@ -3,8 +3,6 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-    <h1 class="h1-home">The CWB Bin Capstone Project.</h1>
-
     {% for headline in news_headlines %}
     <div class="container">
         <div class="row">
@@ -12,13 +10,25 @@
                 <div class="card-body">
                     <h5 class="card-title">{{headline.headline}}</h5>
                     <p class="card-text">{{headline.source}} | {{headline.date}}</p>
-                    <a href="{{headline.url}}" class="btn btn-primary bg-success">Read More...</a>
+                    <a href="{{headline.url}}" class="btn btn-success">Read More...</a>
+                    {% if headline.category == 'news' %}
+                        <a href="{{headline.url}}" class="btn btn-primary">News</a>
+                    {% elif headline.category == 'politics' %}
+                        <a href="{{headline.url}}" class="btn btn-info">Politics</a>
+                    {% elif headline.category == 'business' %}
+                        <a href="{{headline.url}}" class="btn btn-light">Business</a>
+                    {% elif headline.category == 'sports' %}
+                        <a href="{{headline.url}}" class="btn btn-secondary">Sports</a>
+                    {% elif headline.category == 'entertainment'%}
+                        <a href="{{headline.url}}" class="btn btn-warning">Entertainment</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </div>
     <br>
     {% endfor %}
+
 
     <div class="pagination">
         {% if page > 1 %}
