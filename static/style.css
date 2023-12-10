@@ -1,11 +1,11 @@
-#bootstrap-override body{
-    background-color: gray;
+.random{
+    color: white;
 }
-.h1-home{
+.h1-base{
     color: white;
     text-align: center;
     width: auto;
-    margin: 25px;
+    margin: 18px;
 }
 .card-body{
     background-color: #F0F0F0;
@@ -21,4 +21,6 @@
     margin: 10px;
     font-size: 16px;
 }
-
+.check-form{
+    margin-left: 30px;
+}

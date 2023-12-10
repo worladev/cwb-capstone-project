@@ -3,41 +3,34 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-    {% for headline in news_headlines %}
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{headline.headline}}</h5>
-                    <p class="card-text">{{headline.source}} | {{headline.date}}</p>
-                    <a href="{{headline.url}}" class="btn btn-success">Read More...</a>
-                    {% if headline.category == 'news' %}
-                        <a href="{{headline.url}}" class="btn btn-primary">News</a>
-                    {% elif headline.category == 'politics' %}
-                        <a href="{{headline.url}}" class="btn btn-info">Politics</a>
-                    {% elif headline.category == 'business' %}
-                        <a href="{{headline.url}}" class="btn btn-light">Business</a>
-                    {% elif headline.category == 'sports' %}
-                        <a href="{{headline.url}}" class="btn btn-secondary">Sports</a>
-                    {% elif headline.category == 'entertainment'%}
-                        <a href="{{headline.url}}" class="btn btn-warning">Entertainment</a>
-                    {% endif %}
+    {% for category, articles in news_headlines.items() %}
+        {% for article in articles %}
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{article.headline}}</h5>
+                            <p class="card-text">{{article.source}} | {{article.date}}</p>
+                            <a href="{{article.url}}" class="btn btn-success">Read More...</a>
+                            {% if article.category == 'news' %}
+                                <a href="{{article.url}}" class="btn btn-primary">News</a>
+                            {% elif article.category == 'politics' %}
+                                <a href="{{article.url}}" class="btn btn-info">Politics</a>
+                            {% elif article.category == 'business' %}
+                                <a href="{{article.url}}" class="btn btn-light">Business</a>
+                            {% elif article.category == 'sports' %}
+                                <a href="{{article.url}}" class="btn btn-secondary">Sports</a>
+                            {% elif article.category == 'entertainment'%}
+                                <a href="{{article.url}}" class="btn btn-warning">Entertainment</a>
+                            {% endif %}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
+            <br>
+        {% endfor %}
     {% endfor %}
 
-
-    <div class="pagination">
-        {% if page > 1 %}
-            <a href="{{ url_for('index', page=page-1) }}">Prev</a>
-        {% endif %}
-        <h4>Page {{ page }} of {{ total_pages }}</h4>
-        {% if page < total_pages %}
-            <a href="{{ url_for('index', page=page+1) }}">Next</a>
-        {% endif %}
-    </div>
+    <!--Pagination Here-->
 
 {% endblock %}

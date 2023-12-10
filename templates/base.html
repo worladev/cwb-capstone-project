@@ -19,31 +19,31 @@
 </head>
 <body class="bg-dark">
     <!-- Page Content -->
+    <div class="row">
+        <h1 class="h1-base">CWB CAPSTONE PROJECT</h1>
 
-    <form class="select_form">
-        <!-- Below input elements have attribute "checked" -->
-        <input type="checkbox"
-               name="check"
-               value="1">
-        News<br>
-        <input type="checkbox"
-               name="check"
-               value="2"
-               checked>
-        Politics<br>
-        <input type="checkbox"
-               name="check"
-               value="3">
-        Sports<br>
-        <input type="checkbox"
-               name="check"
-               value="4">
-        Entertainment<br>
-        <input type="checkbox"
-               name="check"
-               value="5">
-        Business<br>
-    </form>
+        <form class="random check-form" method="POST">
+            <p class="random">Select Category to View.</p>
+
+            <label for="newsCat">News</label>
+            <input type="checkbox" name="check" value="news" id="newsCat"><br>
+
+            <label for="politicsCat">Politics</label>
+            <input type="checkbox" name="check" value="politics" id="politicsCat"><br>
+
+            <label for="businessCat">Business</label>
+            <input type="checkbox" name="check" value="business" id="businessCat"><br>
+
+            <label for="sportsCat">Sports</label>
+            <input type="checkbox" name="check" value="sports" id="sportsCat"><br>
+
+            <label for="entertainmentCat">Entertainment</label>
+            <input type="checkbox" name="check" value="entertainment" id="entertainmentCat"><br>
+
+            <a href="/category"><input type="submit" class="btn btn-warning" value="Filter"></a>
+        </form>
+
+    </div>
 
     {% block content %}
     {% endblock %}
