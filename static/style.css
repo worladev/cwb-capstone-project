@@ -1,5 +1,14 @@
+.header-link{
+    text-decoration: none;
+}
 .random{
     color: white;
+}
+.body-bg{
+    background-color: #12343b;
+}
+.navbar-bg{
+    background-color:  #33363b;
 }
 .h1-base{
     color: white;
@@ -22,8 +31,17 @@
     font-size: 16px;
 }
 .check-form{
+    padding: 15px;
     margin-bottom: 15px;
 }
 .check-form input{
     margin-right: 45px;
+}
+.navbar-nav li{
+    margin-right: 9px;
+}
+.navbar-nav li a{
+    font-weight: bold;
+    font-size: 17px;
+    color: #a39274;
 }
