@@ -3,21 +3,36 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
+
+<form class="select_form" method="POST">
+    <label class="checkbox-label"><input type="checkbox" name="check" value="news"> News</label><br>
+    <label class="checkbox-label"><input type="checkbox" name="check" value="politics"> Politics</label><br>
+    <label class="checkbox-label"><input type="checkbox" name="check" value="sports"> Sports</label><br>
+    <label class="checkbox-label"><input type="checkbox" name="check" value="entertainment"> Entertainment</label><br>
+    <label class="checkbox-label"><input type="checkbox" name="check" value="business"> Business</label><br>
+    <input type="submit" value="Filter">
+</form>
+
+
+
     <h1 class="h1-home">The CWB Bin Capstone Project.</h1>
 
-    {% for headline in news_headlines %}
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{headline.headline}}</h5>
-                    <p class="card-text">{{headline.source}} | {{headline.date}}</p>
-                    <a href="{{headline.url}}" class="btn btn-primary bg-success">Read More...</a>
+    {% for category, articles in news_headlines.items() %}
+        <h2>{{ category }}</h2>
+        {% for article in articles %}
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ article.headline }}</h5>
+                            <p class="card-text">{{ article.source }} | {{ article.date }}</p>
+                            <a href="{{ article.url }}" class="btn btn-primary bg-success">Read More...</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
+            <br>
+        {% endfor %}
     {% endfor %}
 
     <div class="pagination">
