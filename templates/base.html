@@ -19,30 +19,31 @@
 </head>
 <body class="bg-dark">
     <!-- Page Content -->
-    <div class="row">
-        <h1 class="h1-base">CWB CAPSTONE PROJECT</h1>
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-base">CWB CAPSTONE PROJECT</h1>
 
-        <form class="random check-form" method="POST">
-            <p class="random">Select Category to View.</p>
+            <form action="{{ url_for('news_category') }}" class="random check-form" method="POST">
+                <p class="random">Select Category to View.</p>
 
-            <label for="newsCat">News</label>
-            <input type="checkbox" name="check" value="news" id="newsCat"><br>
+                <label for="newsCat">News</label>
+                <input type="checkbox" name="check" value="news" id="newsCat">
 
-            <label for="politicsCat">Politics</label>
-            <input type="checkbox" name="check" value="politics" id="politicsCat"><br>
+                <label for="politicsCat">Politics</label>
+                <input type="checkbox" name="check" value="politics" id="politicsCat">
 
-            <label for="businessCat">Business</label>
-            <input type="checkbox" name="check" value="business" id="businessCat"><br>
+                <label for="businessCat">Business</label>
+                <input type="checkbox" name="check" value="business" id="businessCat">
 
-            <label for="sportsCat">Sports</label>
-            <input type="checkbox" name="check" value="sports" id="sportsCat"><br>
+                <label for="sportsCat">Sports</label>
+                <input type="checkbox" name="check" value="sports" id="sportsCat">
 
-            <label for="entertainmentCat">Entertainment</label>
-            <input type="checkbox" name="check" value="entertainment" id="entertainmentCat"><br>
+                <label for="entertainmentCat">Entertainment</label>
+                <input type="checkbox" name="check" value="entertainment" id="entertainmentCat">
 
-            <a href="/category"><input type="submit" class="btn btn-warning" value="Filter"></a>
-        </form>
-
+                <a href="/category"><input type="submit" value="Filter"></a>
+            </form>
+        </div>
     </div>
 
     {% block content %}

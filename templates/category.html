@@ -3,29 +3,42 @@
 {% block title %} Category {% endblock %}
 
 {% block content %}
-    {% for article in filtered_headlines %}
-        <div class="container">
-            <div class="row">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">{{article.headline}}</h5>
-                        <p class="card-text">{{article.source}} | {{article.date}}</p>
-                        <a href="{{article.url}}" class="btn btn-success">Read More...</a>
-                        {% if article.category == 'news' %}
-                            <a href="{{article.url}}" class="btn btn-primary">News</a>
-                        {% elif article.category == 'politics' %}
-                            <a href="{{article.url}}" class="btn btn-info">Politics</a>
-                        {% elif article.category == 'business' %}
-                            <a href="{{article.url}}" class="btn btn-light">Business</a>
-                        {% elif article.category == 'sports' %}
-                            <a href="{{article.url}}" class="btn btn-secondary">Sports</a>
-                        {% elif article.category == 'entertainment'%}
-                            <a href="{{article.url}}" class="btn btn-warning">Entertainment</a>
-                        {% endif %}
+    {% if filtered_headlines %}
+        {% for category, headline in filtered_headlines.items() %}
+            {% for article in headline %}
+                <div class="container">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{article.headline}}</h5>
+                                <p class="card-text">{{article.source}} | {{article.date}}</p>
+                                <a href="{{article.url}}" class="btn btn-success">Read More...</a>
+                                {% if article.category == 'news' %}
+                                    <a href="{{article.url}}" class="btn btn-primary">News</a>
+                                {% elif article.category == 'politics' %}
+                                    <a href="{{article.url}}" class="btn btn-info">Politics</a>
+                                {% elif article.category == 'business' %}
+                                    <a href="{{article.url}}" class="btn btn-light">Business</a>
+                                {% elif article.category == 'sports' %}
+                                    <a href="{{article.url}}" class="btn btn-secondary">Sports</a>
+                                {% elif article.category == 'entertainment'%}
+                                    <a href="{{article.url}}" class="btn btn-warning">Entertainment</a>
+                                {% endif %}
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <br>
+            {% endfor %}
+        {% endfor %}
+    {% else %}
+        <div class="container">
+            <div class="row">
+                <h3 class="random">No news article for the selected category.</h3>
             </div>
         </div>
-        <br>
-    {% endfor %}
+    {% endif %}
+
+    <!--Pagination Here-->
+
 {% endblock %}

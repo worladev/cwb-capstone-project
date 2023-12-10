@@ -22,5 +22,8 @@
     font-size: 16px;
 }
 .check-form{
-    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.check-form input{
+    margin-right: 45px;
 }

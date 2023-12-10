@@ -3,8 +3,8 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-    {% for category, articles in news_headlines.items() %}
-        {% for article in articles %}
+    {% for article in news_headlines %}
+
             <div class="container">
                 <div class="row">
                     <div class="card">
@@ -28,9 +28,18 @@
                 </div>
             </div>
             <br>
-        {% endfor %}
+
     {% endfor %}
 
     <!--Pagination Here-->
+    <div class="pagination">
+        {% if page > 1 %}
+            <a href="{{ url_for('index', page=page-1) }}">Prev</a>
+        {% endif %}
+        <h4>Page {{ page }} of {{ total_pages }}</h4>
+        {% if page < total_pages %}
+            <a href="{{ url_for('index', page=page+1) }}">Next</a>
+        {% endif %}
+    </div>
 
 {% endblock %}

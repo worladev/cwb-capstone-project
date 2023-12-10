@@ -81,7 +81,6 @@ class WebScraper:
                         url = news_item['href']
                         headline_text = news_item.text.strip()
 
-
                         # date_items = soup.find_all('span', class_='date')
                         date_match = date_pattern.search(headline_text)  # date-code
                         # date_match = date_pattern.search(url)
@@ -127,7 +126,7 @@ class WebScraper:
                                 new_set.add(article)
                                 all_headlines[category] = new_set
 
-                    logging.info(f"All media headlines successfully obtained.")
+                    logging.info(f"All media headlines successfully obtained from {media_object.name}.")
 
                 else:
                     for code in StatusCode:
