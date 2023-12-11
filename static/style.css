@@ -1,11 +1,20 @@
-#bootstrap-override body{
-    background-color: gray;
+.header-link{
+    text-decoration: none;
 }
-.h1-home{
+.random{
+    color: white;
+}
+.body-bg{
+    background-color: #12343b;
+}
+.navbar-bg{
+    background-color:  #33363b;
+}
+.h1-base{
     color: white;
     text-align: center;
     width: auto;
-    margin: 25px;
+    margin: 18px;
 }
 .card-body{
     background-color: #F0F0F0;
@@ -21,4 +30,18 @@
     margin: 10px;
     font-size: 16px;
 }
-
+.check-form{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.check-form input{
+    margin-right: 45px;
+}
+.navbar-nav li{
+    margin-right: 9px;
+}
+.navbar-nav li a{
+    font-weight: bold;
+    font-size: 17px;
+    color: #a39274;
+}
