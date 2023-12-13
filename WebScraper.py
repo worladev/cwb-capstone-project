@@ -24,8 +24,6 @@ class WebScraper:
     def get_media(self):
         return self.media_list
 
-
-
     # def date_formats(self, date_format):
     #     date_formats = ["%d %B, %Y", "%d-%b-%Y", "%B %d, %Y", "%b-%d-%Y"]
     #     for date_format in date_formats:
@@ -137,9 +135,6 @@ class WebScraper:
             except requests.RequestException as exception_error:
                 logging.error(f"Error connecting to {media_object.url}: {exception_error}")
 
-
-
         return all_headlines
         # a method that takes an integer. could use enums
         # returns meaning of status code received
-
