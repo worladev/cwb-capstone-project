@@ -77,10 +77,7 @@ def filter_category():
 
 @app.route('/news-category/<string:category>')
 def news_category(category):
-    if category:
-        category = headlines[category]
-    else:
-        return f'<h1>No article for {category} category.</h1>'
+    category = headlines[category]
     return render_template('news-category.html',
                            news_cat=category
                            )
