@@ -47,7 +47,7 @@ app = Flask(__name__)
 bootstrap = Bootstrap5(app)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def index():
     # Paginating and rendering Flask object
     page = request.args.get('page', 1, type=int)
@@ -64,15 +64,23 @@ def index():
                            )
 
 
-@app.route('/category', methods=['GET', 'POST'])
-def news_category():
+@app.route('/filter-category', methods=['GET', 'POST'])
+def filter_category():
     if request.method == 'POST':
         selected_categories = request.form.getlist('check')
         filtered_headlines = {category: headlines.get(category, []) for category in selected_categories}
-        return render_template('category.html',
+        return render_template('filter-category.html',
                                filtered_headlines=filtered_headlines,
                                )
-    return render_template('category.html')
+    return render_template('filter-category.html')
+
+
+@app.route('/news-category/<string:category>')
+def news_category(category):
+    category = headlines[category]
+    return render_template('news-category.html',
+                           news_cat=category
+                           )
 
 
 if __name__ == '__main__':
