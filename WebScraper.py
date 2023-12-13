@@ -43,6 +43,8 @@ class WebScraper:
             text = text.lower()
             if 'entertainment' in text:
                 return 'entertainment'
+            elif 'government' in text or 'parliament' in text:
+                return 'politics'
             elif 'sports' in text:
                 return 'sports'
             elif 'business' in text:
