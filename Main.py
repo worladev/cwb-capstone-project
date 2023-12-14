@@ -1,5 +1,4 @@
 # import logging
-import os
 
 from LoggingConfig import LoggingConfig
 from MediaOutletConfigReader import MediaOutletConfigReader
@@ -49,7 +48,7 @@ bootstrap = Bootstrap5(app)
 
 @app.route('/')
 def index():
-    # Paginating and rendering Flask object
+    # # Paginating and rendering Flask object
     page = request.args.get('page', 1, type=int)
     per_page = 10
     all_articles = [article for articles in headlines.values() for article in articles]

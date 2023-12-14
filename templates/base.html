@@ -8,14 +8,13 @@
             rel="stylesheet"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous">
-        <link rel="stylesheet" href="static/style.css">
-    {% block styles %}
-        <!-- Bootstrap CSS -->
-        {{bootstrap.load_css()}}
-    {% endblock %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        {% block styles %}
+            <!-- Bootstrap CSS -->
+            {{ bootstrap.load_css() }}
+        {% endblock %}
         <title>{% block title %} {% endblock %}</title>
     {% endblock %}
-
 </head>
 <body class="body-bg">
     <!-- Page Content -->
