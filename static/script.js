@@ -7,3 +7,5 @@ document.getElementById('menuBar').addEventListener('click', function(event) {
     document.getElementById('sports').href = '/news-category/' + category;
     document.getElementById('entertainment').href = '/news-category/' + category;
 });
+
+
