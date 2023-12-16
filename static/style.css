@@ -5,10 +5,10 @@
     color: white;
 }
 .body-bg{
-    background-color: #12343b;
+    background-color: #581A57;
 }
 .navbar-bg{
-    background-color:  #33363b;
+    background-color:  #000107;
 }
 .h1-base{
     color: white;
@@ -17,7 +17,7 @@
     margin: 16px;
 }
 .card-body{
-    background-color: #F0F0F0;
+    background-color: #87CEEB;
 }
 .pagination{
     margin: 10px;
@@ -43,5 +43,5 @@
 .navbar-nav li a{
     font-weight: bold;
     font-size: 17px;
-    color: #a39274;
+    color: #FFFFFF;
 }
