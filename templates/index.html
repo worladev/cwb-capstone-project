@@ -32,11 +32,11 @@
     <!--Pagination Here-->
     <div class="pagination">
         {% if page > 1 %}
-            <a href="{{ url_for('index', page=page-1) }}">Prev</a>
+            <a href="{{ url_for('index', page=page-1) }}" class="btn btn-light">Prev</a>
         {% endif %}
         <h4>Page {{ page }} of {{ total_pages }}</h4>
         {% if page < total_pages %}
-            <a href="{{ url_for('index', page=page+1) }}">Next</a>
+            <a href="{{ url_for('index', page=page+1) }}" class="btn btn-light">Next</a>
         {% endif %}
     </div>
 

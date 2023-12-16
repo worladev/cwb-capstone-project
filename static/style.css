@@ -6,6 +6,7 @@
 }
 .body-bg{
     background-color: #581A57;
+    border-radius: 40px;
 }
 .navbar-bg{
     background-color:  #000107;
@@ -35,7 +36,7 @@
     margin-bottom: 15px;
 }
 .check-form input{
-    margin-right: 45px;
+    margin-right: 15px;
 }
 .navbar-nav li{
     margin-right: 9px;
