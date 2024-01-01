@@ -12,17 +12,17 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{article.headline}}</h5>
                                 <p class="card-text">{{article.source}} | {{article.date}}</p>
-                                <a href="{{article.url}}" class="btn btn-success">Read More...</a>
+                                <a href="{{article.url}}" class="btn btn-success" target="_blank">Read More...</a>
                                 {% if article.category == 'news' %}
-                                    <a href="{{article.url}}" class="btn btn-primary">News</a>
+                                    <a href="{{article.url}}" class="btn btn-primary" target="_blank">News</a>
                                 {% elif article.category == 'politics' %}
-                                    <a href="{{article.url}}" class="btn btn-info">Politics</a>
+                                    <a href="{{article.url}}" class="btn btn-info" target="_blank">Politics</a>
                                 {% elif article.category == 'business' %}
-                                    <a href="{{article.url}}" class="btn btn-light">Business</a>
+                                    <a href="{{article.url}}" class="btn btn-light" target="_blank">Business</a>
                                 {% elif article.category == 'sports' %}
-                                    <a href="{{article.url}}" class="btn btn-secondary">Sports</a>
+                                    <a href="{{article.url}}" class="btn btn-secondary" target="_blank">Sports</a>
                                 {% elif article.category == 'entertainment'%}
-                                    <a href="{{article.url}}" class="btn btn-warning">Entertainment</a>
+                                    <a href="{{article.url}}" class="btn btn-warning" target="_blank">Entertainment</a>
                                 {% endif %}
                             </div>
                         </div>
